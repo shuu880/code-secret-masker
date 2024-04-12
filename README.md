@@ -7,6 +7,18 @@ Masks sensitive parts of your code. Enables secure screen sharing, even if your 
 1. Mask secrets.(secret-masking)
 2. Duplicate codes and mask secrets.(secret-masking-new)
 
+#### Example
+
+| Before                   | After                    |
+|--------------------------|--------------------------|
+| name: name               | name: name               |
+| password: foo            | password*****            |
+| email: bar               | email: bar               |
+| key: baz                 | key*****                 |
+| external-secrets: qux    | external-secret******    |
+| pass: quux               | pass******               |
+
+
 ## Requirements
 
 - (Required) mask-keyword.json on your `vscode.workspace.rootPath`
