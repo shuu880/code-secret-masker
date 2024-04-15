@@ -3,7 +3,8 @@
   "displayName": "code-secret-masker",
   "publisher": "shuu880",
   "description": "Masks sensitive parts of your code. Enables secure screen sharing, even if your codes contain keys.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.88.0"
   },
