@@ -1,6 +1,7 @@
 {
   "name": "code-secret-masker",
   "displayName": "code-secret-masker",
+  "publisher": "shuu880",
   "description": "Masks sensitive parts of your code. Enables secure screen sharing, even if your codes contain keys.",
   "version": "0.0.1",
   "engines": {
